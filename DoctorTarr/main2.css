@@ -1,0 +1,15 @@
+.fondo{
+    background-color: #FEB729;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 50px;
+    color: orangered;
+
+}
+p{
+    margin: 35px;
+    color:  #00275E;
+}

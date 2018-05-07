@@ -1,0 +1,42 @@
+.parrafocuento{
+    font-style:italic; 
+}
+
+.imgdiablo{
+    
+        height: 310px;
+        width: 265px;
+        margin: 5px 45px 25px 20px;
+        float: left;
+        align-content:left;
+      
+}
+
+p{
+    color:  #400D12;
+}
+
+
+body{
+    background-color: #4FD5D6;
+}
+
+h2{
+    color: rgb(211, 66, 66);
+}
+
+
+ul{
+    margin: 40px 10px;
+    color: rgb(36, 7, 10);
+}
+
+span{
+    font-size: 17px;
+  }
+
+  h1{
+   text-align: center;
+   font-size: 50px;
+   color: 	rgb(228, 2, 2);
+  }

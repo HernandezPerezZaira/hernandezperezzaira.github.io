@@ -1,0 +1,67 @@
+.tituloprincipal{
+  background-color: white;
+  color: rgb(10, 61, 68);
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+  color: 	rgb(30, 155, 149);
+  background-color: rgb(10, 61, 68); 
+
+}
+
+.pie{
+ background-color:  rgb(10, 61, 68);
+ margin: 25px;
+}
+.tabla{
+  align-content: center;
+  text-align: center;
+  
+
+}
+
+.celdas{
+  /*background-color: rgb(90, 126, 138);*/
+  background-color: white;
+  
+}
+
+.margencelda{
+  margin: 0%;
+}
+
+a{
+  text-align: center;
+}
+
+.imagenescuentos{
+  align-content: center;
+}
+
+.contenedor{
+  margin: 20px 100px 100px 100px;
+  background-color: rgba(43, 88, 105, 0.507);
+}
+p{
+  margin: 20px;
+}
+
+ .imagenespoe{
+  margin: auto;
+ }
+  .imgpoe{
+    border: 20px;
+    height: 250px;
+    width: 340px;
+    border: 5;
+  }
+
+.imagen{
+  height: 220px;
+  width: 185px;
+  margin: 5px 10px 15px 20px;
+  float: left;
+  align-content:center;
+}

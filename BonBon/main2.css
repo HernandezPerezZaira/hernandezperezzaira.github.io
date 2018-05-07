@@ -1,0 +1,42 @@
+.parrafocuento{
+    font-style: italic;
+  }
+
+  h1{
+    color: #243743;
+  }
+
+  .imgbonbon{
+    height: 380px;
+    width: 295px;
+    margin: 5px 45px 25px 20px;
+    float: left;
+    align-content:left;
+  }
+
+  h2{
+    color: #0c4568;
+  }
+
+  ul{
+    color: #06263a;
+  }
+
+  body{
+    background-color: #8A949B;
+    
+  }
+
+  span{
+    font-size: 17px;
+  }
+
+  h1{
+   text-align: center;
+   font-size: 50px;
+  }
+
+  ul{
+    margin: 10px 15px 10px 45px;
+  }
+ 

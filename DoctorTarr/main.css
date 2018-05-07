@@ -1,0 +1,35 @@
+.imgsistema{
+    height: 380px;
+    width: 405px;
+    margin: 5px 45px 25px 20px;
+    float: left;
+    align-content:left;
+  }
+
+  body{
+    background-color: #D08504;
+    
+  }
+
+  .parrafocuento{
+    font-style: italic;
+  }
+
+  span{
+    font-size: 17px;
+  }
+
+  h1{
+   text-align: center;
+   font-size: 50px;
+   color: #660000;
+  }
+
+  h2{
+      color: maroon;
+  }
+
+  ul{
+    margin: 10px 15px 10px 45px;
+    color:  rgb(15, 43, 112);
+  }
