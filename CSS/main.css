@@ -1,31 +1,39 @@
+/*index principal*/
 .tituloprincipal{
   background-color: white;
   color: rgb(10, 61, 68);
   text-align: center;
+  font-size: 40px;
 }
 
 h2{
   text-align: center;
   color: 	rgb(30, 155, 149);
-  background-color: rgb(10, 61, 68); 
+  background-color: #0a3d44; 
+  border-radius: 8px;
+  font-size: 30px;
 
 }
 
 .pie{
  background-color:  rgb(10, 61, 68);
  margin: 25px;
+ border-radius: 10px;
 }
 .tabla{
   align-content: center;
   text-align: center;
-  
-
+  margin: 0px;
 }
 
 .celdas{
-  /*background-color: rgb(90, 126, 138);*/
-  background-color: white;
-  
+  background-color: rgba(255, 255, 255, 0.541);  
+  border-radius: 10px;
+}
+
+td{
+  padding: 0px;
+  width: 60px;
 }
 
 .margencelda{
@@ -34,18 +42,28 @@ h2{
 
 a{
   text-align: center;
+  color: #63200c;
+}
+
+.princ{
+  background-image: url(/dise.jpg);
 }
 
 .imagenescuentos{
   align-content: center;
+  margin: auto;
 }
 
 .contenedor{
   margin: 20px 100px 100px 100px;
   background-color: rgba(43, 88, 105, 0.507);
+  border-radius: 10px;
+  text-align: justify;
+  margin: 20px 50px;
 }
-p{
+.parrprin{
   margin: 20px;
+  font-size: 17px;
 }
 
  .imagenespoe{
@@ -55,13 +73,405 @@ p{
     border: 20px;
     height: 250px;
     width: 340px;
-    border: 5;
+    border:rgb(37, 84, 116);
+    border-style: groove;
+    border-width: 7px;
+    border-radius: 15px;
   }
 
 .imagen{
-  height: 220px;
-  width: 185px;
+  height: 200px;
+  width: 181px;
   margin: 5px 10px 15px 20px;
+  
+  align-content:center;
+  border:rgb(172, 70, 39);
+  border-style: groove;
+  border-width: 7px;
+  border-radius: 10px;
+}
+
+/*resena bon bon*/
+.parrafocuentobon{
+  font-style:italic; 
+  color: rgb(57, 100, 163);
+  }
+
+  .h1bon{
+    color: #517e9b;
+    text-align: center;
+    font-size: 50px;
+  }
+
+  .imgbonbonbon{
+        height: 310px;
+        width: 265px;
+        margin: 5px 45px 25px 20px;
+        float: left;
+        align-content:left;
+        border:rgb(57, 100, 163);
+        border-style: groove;
+        border-width: 7px;
+        border-radius: 10px;
+  }
+
+  .h2bonbon{
+    color: #165c77;
+    background-color: transparent;
+  }
+
+.tablebon{
+  margin: auto;
+}
+
+
+  .ulbon{
+    color: #ffffff;
+    margin: 10px 15px 10px 45px;
+  }
+
+  .abon{
+    color: #41a2df;
+  }
+
+  .bodybon{
+    background-image: url(/img.jpg);
+    background-size: cover;
+    color: #8f9494;
+    font: bold;
+    font-size: 20px;
+    text-align: justify;
+    margin: 20px 50px;
+    
+  }
+
+  .spanbon{
+    font-size: 17px;
+    color: #4b4d4d;
+  }
+
+ /*resena DiabloCampanario*/
+ .parrafocuentocamp{
+  font-style:italic; 
+  color: #4FD5D6;
+}
+
+.bodycamp{
+  background-image: url(/def);
+  background-size: cover;
+  color: rgb(253, 253, 253);
+  font: bold;
+  font-size: 20px;
+  text-align: justify;
+  margin: 20px 50px;
+}
+
+.imgdiablocamp{
+  
+      height: 310px;
+      width: 265px;
+      margin: 5px 45px 25px 20px;
+      float: left;
+      align-content:left;
+      border:#4FD5D6;
+      border-style: groove;
+      border-width: 7px;
+      border-radius: 10px;
+    
+}
+
+.imagenescamp{
+  margin: auto;
+}
+
+
+
+.parrafocamp{
+  font-size: 20px;
+}
+
+
+.bodycamp{
+  background-color: #4FD5D6;
+}
+
+.h2camp{
+  color: rgb(138, 14, 14);
+  background-color: transparent;
+}
+
+
+.ulcamp{
+  margin: 40px 10px;
+ color: white;
+}
+
+.spancamp{
+  font-size: 17px;
+  color: rgb(236, 106, 67);
+}
+
+.h1camp{
+ text-align: center;
+ font-size: 50px;
+ color: 	rgb(156, 1, 1);
+}
+
+.acamp{
+    color: rgb(241, 88, 183);
+}
+/*resena doctor tarr*/
+.imgsistemadoc{
+  height: 275px;
+  width: 350px;
+  margin: 5px 45px 25px 20px;
   float: left;
   align-content:center;
+  border:rgb(197, 83, 7);
+  border-style: groove;
+  border-width: 7px;
+  border-radius: 10px;
+  }
+
+  .tabledoc{
+    margin: auto;
+  }
+
+  .bodydoc{
+    background-image: url(/mad.jpg);
+    background-size: cover;
+    color: rgb(252, 252, 252);
+    font: bold;
+    font-size: 20px;
+    text-align: justify;
+    margin: 20px 50px;
+    
+  }
+
+  .parrafocuentodoc{
+    font-style: italic;
+    color: #f7c363;
+  }
+
+  .spandoc{
+    font-size: 17px;
+  }
+
+  .h1doc{
+   text-align: center;
+   font-size: 50px;
+   color: #ffa702;
+  }
+
+  .adoc{
+    color: rgb(255, 9, 9);
+  }
+
+  .h2doc{
+      color: #ffd000;
+      background-color: transparent;
+  }
+  .spandoc{
+    color: #db8616;
+  }
+
+  .uldoc{
+    margin: 10px 15px 10px 45px;
+    color:  rgb(163, 206, 7);
+  }
+  .imagenesdoc{
+    margin: auto;
+  }
+  /*resena los anteojos*/
+  .imganteojosante{
+    height: 350px;
+    width: 275px;
+    margin: 5px 45px 25px 20px;
+    float: left;
+    align-content:center;
+    border:rgb(136, 57, 4);
+    border-style: groove;
+    border-width: 7px;
+    border-radius: 10px;
+  }
+  .tableante{
+      margin: auto;
+    }
+  
+  .bodyante{
+      background-image: url(/anteo.jpg);
+      background-size: cover;
+      color: rgb(252, 252, 252);
+      font: bold;
+      font-size: 20px;
+      text-align: justify;
+      margin: 20px 50px;
+      
+  }
+  
+   .h1ante{
+       color:  rgb(102, 77, 0);
+       text-align: center;
+       font-size: 50px;
+      /* color: #c78408;*/
+   }
+  
+   .h2ante{
+       color: rgb(122, 26, 2);
+       font-family: cursive;
+       font-size: 35px;
+       background-color: transparent;
+   }
+  
+  
+  .p1ante{
+      font-style: italic;
+      color: #ffa702;
+  }
+  .spanante{
+      font-size: 17px;
+      color: #e0ddcb;
+    }
+    .aante{
+        color: cornflowerblue;
+    }
+  
+    .ulante{
+      margin: 10px 15px 10px 45px;
+      color: rgb(170, 75, 11);
+    }
+
+    .imagenesante{
+      margin: auto;
+    }
+    /*resena nunca apuestes*/
+    .parrafocuentonun{
+      font-style: italic;
+      color: rgb(4, 90, 250);
+    }
+  
+    .anun{
+      color: red;
+    }
+  
+    .imgcabezanun{
+      height: 350px;
+      width: 275px;
+      margin: 5px 45px 25px 20px;
+      float: left;
+      align-content:center;
+      border:rgb(6, 4, 136);
+      border-style: groove;
+      border-width: 7px;
+      border-radius: 10px;
+    }
+  
+    .tablenun{
+      margin: auto;
+    }
+  
+    .h2nun{
+      color: rgb(29, 92, 134);
+       font-family: cursive;
+       font-size: 35px;
+       background-color: transparent;
+    }
+  
+    .bodynunca{
+      background-image: url(/nncara.jpg);
+      background-size: cover;
+      color: rgb(255, 255, 255);
+      font: bold;
+      font-size: 20px;
+      text-align: justify;
+      margin: 20px 50px;
+      
+    }
+  
+    .spannun{
+      font-size: 17px;
+      color: rgb(36, 51, 184);
+    }
+  
+    .h1nun{
+     text-align: center;
+     font-size: 50px;
+     color: rgb(11, 41, 126);
+    }
+  
+    .ulnun{
+      margin: 10px 15px 10px 45px;
+      color: rgb(255, 255, 255);
+  
+    }
+  
+/*cuento bon bon*/
+.fondocb{
+  background-color: #C0C0C0;
+  text-align: justify;
+  color: #000044;
 }
+
+.h1cb{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  font-size: 50px;
+  color: 	rgb(14, 106, 199);
+
+}
+/*cuento los anteojos*/
+.fondoca{
+  background-color: #A4E666;
+  text-align: justify;
+  color: black;
+}
+
+.h1ca{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  font-size: 50px;
+  color: 		#494d28;
+
+}
+/*cuento doctor tarr*/
+.fondocdt{
+  background-color: #FEB729;
+  text-align: justify;
+  color:  #00275E;
+}
+
+.h1cdt{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  font-size: 50px;
+  color: orangered;
+}
+
+/*cuento campanario*/
+.fondocc{
+  background-color: rgb(29, 1, 1);
+  text-align: justify;
+  color: white;
+}
+
+.h1cc{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  font-size: 50px;
+  color: tomato;
+
+}
+/*cuento nunca apuestes*/
+.fondocn{
+  text-align: justify;
+  background-color: rgba(161, 128, 16, 0.651);
+  color: rgb(126, 49, 14);  
+}
+
+.h1cn{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  font-size: 50px;
+  color: rgb(119, 11, 11);
+
+}  
