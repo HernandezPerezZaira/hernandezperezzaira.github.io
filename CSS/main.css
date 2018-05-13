@@ -151,6 +151,11 @@ a{
   }
 
  /*resena DiabloCampanario*/
+ .diiv{
+  background: black;
+  margin: 25px;
+  border-radius: 15px;
+}
  .parrafocuentocamp{
   font-style:italic; 
   color: #4FD5D6;
